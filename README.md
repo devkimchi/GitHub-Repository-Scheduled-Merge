@@ -12,7 +12,7 @@ Deploy the Durable Function app to Azure. Alternatively, you can run this app on
 
 ### Set up App Settings ###
 
-Once the app is deployed to Azure, add the configuration values below to App Settings, or `local.settings.json`.
+Once the app is deployed to Azure, add the configuration values below to App Settings. Alternatively, update `local.settings.json` to run the app on your local machine.
 
 * `Duration__Max`: The maximum duration is seven days in the format of `d.HH:mm:ss`, which is `7.00:00:00`. This is due to the limitation of Durable Functions.
 * `GitHub__AuthKey`: This is the basic authentication key. To get the basic authentication key, get a personal access token with your username and build the key.
